@@ -12,15 +12,15 @@ const UserSchema = new Schema({
         required: true,
         unique: true
     },
-     password: {
+    password: {
         type: String,
         required: true
-       
+
     },
     date: {
-        type:Date,
+        type: Date,
         default: Date.now
     }
 });
 
-module.exports =User =mongoose.model("User", ItemSchema);
+module.exports = User = mongoose.model("User", UserSchema);

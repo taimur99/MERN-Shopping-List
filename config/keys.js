@@ -1,4 +1,0 @@
-module.exports = {
-    mongoURI: "mongodb+srv://asmataimur151_db_user:AdjPd5jHspXw8Rxl@cluster0.mfjanqr.mongodb.net/"
-}
-
